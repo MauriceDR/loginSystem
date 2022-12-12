@@ -1,0 +1,171 @@
+* {
+  font-family: "Quicksand", sans-serif;
+}
+
+.video {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -100;
+}
+
+a {
+  text-decoration: none;
+  color: grey;
+}
+
+label {
+  color: white;
+}
+
+.main h1 {
+  text-align: center;
+  color: white;
+  text-shadow: 1px 7px #000000;
+  font-size: 50px;
+}
+
+h3 {
+  font-size: small;
+}
+
+section {
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+footer {
+  text-align: center;
+  font: small;
+}
+
+.login-container {
+  /* box-shadow: 8px 10px; */
+  box-shadow: 0 40px 40px -20px black;
+  background-color: rgb(23, 24, 23, 0.8);
+
+  max-width: 700px;
+  width: 100%;
+  margin: auto;
+  height: 30vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-user {
+  font-weight: 800;
+  padding: 5px;
+  border: 2px solid black;
+  margin-bottom: 10px;
+}
+
+.login-pass {
+  font-weight: 800;
+  padding: 5px;
+  border: 2px solid black;
+}
+
+.login-button {
+  width: 22%;
+  margin-top: 30px;
+  padding: 5px;
+  border: 1px solid black;
+}
+
+.login-button:hover {
+  cursor: pointer;
+  background-color: rgb(85, 201, 85);
+}
+
+.agree-box {
+  font-size: smaller;
+  display: inline-flex;
+  margin-top: 10px;
+}
+
+.modal-container {
+  background-color: rgba(0, 0, 0, 0.3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  opacity: 0;
+  pointer-events: none;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+}
+.modal-container h1 {
+  color: black;
+  text-align: center;
+}
+
+.modal-container.show {
+  pointer-events: auto;
+  opacity: 1;
+}
+
+.modal {
+  background-color: rgb(111, 196, 85);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+
+  height: 75px;
+  width: 195px;
+  max-height: 100%;
+  max-width: 100%;
+  text-align: center;
+}
+
+.modal h1 {
+  display: flex;
+  justify-content: center;
+}
+
+/*terms and condition*/
+.modal-container-terms {
+  background-color: rgba(0, 0, 0, 0.3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  opacity: 0;
+  pointer-events: none;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+}
+.modal-container-terms h1 {
+  color: black;
+  text-align: center;
+}
+
+.modal-container-terms.show {
+  pointer-events: auto;
+  opacity: 1;
+}
+
+.modal-terms {
+  background-color: rgb(111, 196, 85);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+
+  height: 75px;
+  width: 195px;
+  max-height: 100%;
+  max-width: 100%;
+  text-align: center;
+}
+
+.modal-terms h1 {
+  display: flex;
+  justify-content: center;
+}
